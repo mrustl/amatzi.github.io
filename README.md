@@ -72,16 +72,16 @@ also the files:
 are used as both are sucessfully used for automating the update process 
 for the [fakin.doc](https://github.com/kwb-r/fakin.doc) website. 
 
-Each push to the repo`s [dev](https://github.com/mrustl/mrustl.github.io/tree/dev) 
-branch triggers a Travis [![Travis build](https://travis-ci.org/mrustl/mrustl.github.io.svg?branch=dev)](https://travis-ci.org/mrustl/mrustl.github.io). 
+Each push to the repo`s [dev](https://github.com/mrustl/amatzi.github.io/tree/dev) 
+branch triggers a Travis [![Travis build](https://travis-ci.org/mrustl/amatzi.github.io.svg?branch=dev)](https://travis-ci.org/mrustl/amatzi.github.io). 
 
-After finalising the Travis [![Travis build](https://travis-ci.org/mrustl/mrustl.github.io.svg?branch=dev)](https://travis-ci.org/mrustl/mrustl.github.io) the website is automatically pushed to the 
-repo`s [master](https://github.com/mrustl/mrustl.github.io/tree/master) branch,
+After finalising the Travis [![Travis build](https://travis-ci.org/mrustl/amatzi.github.io.svg?branch=dev)](https://travis-ci.org/mrustl/amatzi.github.io) the website is automatically pushed to the 
+repo`s [master](https://github.com/mrustl/amatzi.github.io/tree/master) branch,
 which contains all necessary files for serving the website!
 
 ### Step 4: Visit the updated website
 
-The content of the updated website is available at [https://mrustl.github.io](https://mrustl.github.io).
+The content of the updated website is available at [https://amatzi.github.io](https://amatzi.github.io).
 
 
 
@@ -153,7 +153,7 @@ write_bibtex(dois = publications_with_dois$`external-id-value`)
 ## Download Anaconda with Python 3.7 from website (if not installed)
 #browseURL("https://www.anaconda.com/download/")
 
-python_path <- "C:/Users/mrustl.KWB/AppData/Local/Continuum/anaconda3"
+python_path <- "C:/Users/amatzi.KWB/AppData/Local/Continuum/anaconda3"
 
 Sys.setenv(RETICULATE_PYTHON = python_path)
 
