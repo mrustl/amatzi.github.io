@@ -8,6 +8,7 @@ selected = false
 publication = ""
 url_pdf = "https://doi.org/10.5281/zenodo.2243961"
 doi = "10.5281/zenodo.2243961"
+tags = ["R package"]
 projects = ["networks4", "fakin"]
 +++
 
