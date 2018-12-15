@@ -7,9 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018 Andreas Matzinger</copyright>
+    <lastBuildDate>Thu, 13 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://amatzi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>R package</title>
+      <link>https://amatzi.github.io/tags/r-package/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://amatzi.github.io/tags/r-package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resilience</title>
+      <link>https://amatzi.github.io/tags/resilience/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://amatzi.github.io/tags/resilience/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

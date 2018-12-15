@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R package on </title>
+    <link>https://amatzi.github.io/tags/r-package/</link>
+    <description>Recent content in R package on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2018 Andreas Matzinger</copyright>
+    <lastBuildDate>Thu, 13 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://amatzi.github.io/tags/r-package/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>kwb.resilience (v.0.1.0): R Package for the Quantification of Technical Resilience</title>
+      <link>https://amatzi.github.io/publication/matzinger-2018/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://amatzi.github.io/publication/matzinger-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
