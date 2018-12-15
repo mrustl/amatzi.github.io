@@ -198,9 +198,27 @@ ORCID publications should be added there now!
 
 **Important note:** in case the it was possible to resolve the DOI and create a
 valid bibtex entry with the
-[knitcitations](https://github.com/cboettig/knitcitations) package these will be
+[RefManageR](https://github.com/ropensci/RefManageR) package these will be
 missing in the **content/publication* folder. Check the step where
-`knitcitations::citep` is called and watch for errors!
+`RefManageR::GetBibEntryWithDOI` is called and watch for errors!
 
 For pushing the changes to your website go through the steps defined in 
 [How to update the website](#1-how-to-update-the-website) again!
+
+
+## 3 Getting portrait picture
+
+Automatically do this with the magick R package: 
+
+### Download, crop and save Andues portrait with magick!
+
+```r
+library(magick)
+library(magrittr)
+url <- file.path("https://www.kompetenz-wasser.de/wp-content/uploads/2017/07",
+       "andreas_matzinger_kuras-600x400.jpg"")
+       
+magick::image_read(url) %>%
+  magick::image_crop(geometry = magick::geometry_area(250,300, 175, 0)) %>% 
+  magick::image_write("static/img/author.jpg")
+```
